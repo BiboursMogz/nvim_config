@@ -4,5 +4,5 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
-require("bibours.packer")
+require 'bibours.lazy'
 require("bibours.remap")
